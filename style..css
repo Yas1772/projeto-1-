@@ -1,5 +1,12 @@
 body{
-   color:white
-   background: black;
-   
+   color:white;
+   background: black;   
+}
+
+header {
+   border: solid 2px white;
+}
+
+section{
+   background:  rgb(69, 2, 156);
 }
