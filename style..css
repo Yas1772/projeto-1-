@@ -1,13 +1,19 @@
 body {
    color: white;
-   background: black;
+   background: rgb(0, 0, 0);
    margin: 0px;
 }
 
 
 header {
-border-bottom:solid 2px rgb( 156, 39, 176, 1);
+border-bottom:solid 2px rgb(217, 0, 255);
 padding: 20px;
 font-size: 32px;
-color: rgb(228, 42, 203);
+color: rgb(221, 28, 255);
+}
+
+
+
+section {
+   background: rgb(134, 9, 134);
 }
