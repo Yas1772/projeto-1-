@@ -2,19 +2,20 @@ body {
    color: white;
    background: rgb(0, 0, 0);
    margin: 0px;
+   font-family: "Lato", sans-serif;
 }
 
 
 header {
 border-bottom:solid 2px rgb(217, 0, 255);
-padding: 20px;
-font-size: 32px;
+padding: 1px;
+font-size: 20px;
 color: rgb(221, 28, 255);
 }
 
-.chamada {
+section {
    background: rgb(173, 87, 173)
-   padding-bottom: 80px
+   padding-bottom 80px;
    padding-top: 80px;
    display: flex;
    justify-content: center;
@@ -25,35 +26,10 @@ color: rgb(221, 28, 255);
 }
 
 h1 {
-   font-size: 20px;
+   font-size: 40px;
 }
 
-.categoria-videos {
-   display: flex;
-   overflow-x: auto;
-   gap: 10px;
+p {
+   font-size:20px;
 }
 
-.categoria {
-   padding-left: 20px;
-   padding-right: 20px;
-   margin-top: 50px;
-}
-
-.categoria-vídeos img {
-   opacity: 0.5;
-   height: 200px;
-}
-
-.categoria-vídeos img:hover {
-   opacity:1.0;
-   border: 3px solid violet;
-}
-
-.categoria h2 {
-   color:rgb(253, 85, 169)
-}
-
-section {
-   background: rgb(134, 9, 134);
-}
